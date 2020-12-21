@@ -1,7 +1,7 @@
 class Log extends BaseClass {
   constructor (x,y,height,angle){
     super(x,y,20,height,angle);
-    this.image = loadImage("Images _C_25/wood2.png")
+    this.image = loadImage("Images/log.png")
   Matter.Body.setAngle(this.body,angle)
   }
 }

@@ -7,7 +7,7 @@ var box1, pig1;
 
 
 function preload(){
-    India = loadImage("Images _C_25/bg.png");
+    India = loadImage("Images/himalayas.png");
 }
 function setup(){
     var canvas = createCanvas(1200,400);
@@ -24,6 +24,7 @@ function setup(){
 
     box3 = new Box(700,240,70,70);
     box4 = new Box(920,240,70,70);
+    
     pig3 = new Pig(810, 220);
 
     log3 =  new Log(810,180,300, PI/2);
